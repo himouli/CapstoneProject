@@ -52,15 +52,7 @@
 
 Here's what the overall system architecture might look like:
 
-[OpenStack Logs] → [Log Preprocessing] → [Anomaly Detection Model]
-                                              ↓
-                                      [Anomaly Detected?] → No → [Continue Monitoring]
-                                              ↓ Yes
-                                      [Context Enrichment]
-                                              ↓
-[User Query] → [Query Processor] → [RCA Generation Model] → [Explanation to User]
-                                              ↑
-                                      [OpenStack Knowledge Base]
+![image](https://github.com/user-attachments/assets/b30507b0-6aa8-4b12-af5a-d2d628d204ea)
 
 The system works by:
     Continuously monitoring logs for unusual patterns

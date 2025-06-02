@@ -1,3 +1,4 @@
+https://chatgpt.com/share/683daf97-f8e0-800e-b871-58dfc3465c1c
 Below is a sequence of shell/git commands to:
 
 1. Create the exact folder structure on your laptop
